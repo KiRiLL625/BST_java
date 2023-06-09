@@ -9,6 +9,9 @@ public class BinarySearchTree {
      * Класс, описывающий узел дерева
      */
     static class Node{
+        /**
+         * Ключ и значение узла
+         */
         AbstractMap.SimpleEntry<Integer, Double> keyValuePair;
         Node parent;
         Node left;
